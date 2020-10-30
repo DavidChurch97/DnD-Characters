@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DnD</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Characters</h2>
+
+        <div class="characters">
+            <img src="img/newCharacterIcon.png" id="newCharacterIcon">
+        </div>
+
+        <a href="" id="characterLink" onclick="changeLink()">
+            <div class="characterInfo">
+                <h3 id="characterHeading">Create New</h3>
+            </div>
+        </a>
+
+        <div class="backNext">
+            <p><span id="back" onclick="backCharacter()"><</span>   <span id="next" onclick="nextCharacter()">></span></p>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
