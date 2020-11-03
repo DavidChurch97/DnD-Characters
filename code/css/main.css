@@ -35,6 +35,17 @@ a{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.characterInfoExtended {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: 21rem;
+    left: 2.3rem;
+    background: #455561;
+    border-radius: 0px 0px 20px 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 .characterInfo:hover, #characterHeading:hover {
     background: #E5E5E5;
     color: #455561;
@@ -96,4 +107,659 @@ a{
 #hitPointTotal {
     position: relative;
     text-align: center;
+}
+
+#abilityScores {
+    background-color: #434852;
+    position: absolute;
+    width: 100%;
+    height: 23rem;
+    left: 0;
+    top: 543px;
+}
+
+#abilityScoresTitle {
+    text-align: left;
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+#statPlaceholder1 {
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 5.5rem;
+}
+
+#strength {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#strengthTotal {
+    position: absolute;
+    left: 1.5rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #434852;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#statPlaceholder2 {
+    position: absolute;
+    top: 4rem;
+    left: 8.8rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 5.5rem;
+}
+
+#dexterity {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#dexterityTotal {
+    position: absolute;
+    left: 1.5rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #434852;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#statPlaceholder3 {
+    position: absolute;
+    top: 4rem;
+    left: 16rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 5.5rem;
+}
+
+#constitution {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#constitutionTotal {
+    position: absolute;
+    left: 1.5rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #434852;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#statPlaceholder4 {
+    position: absolute;
+    top: 14rem;
+    left: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 5.5rem;
+}
+
+#intelligence {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#intelligenceTotal {
+    position: absolute;
+    left: 1.5rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #434852;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#statPlaceholder5 {
+    position: absolute;
+    top: 14rem;
+    left: 8.8rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 5.5rem;
+}
+
+#wisdom {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#wisdomTotal {
+    position: absolute;
+    left: 1.5rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #434852;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#statPlaceholder6 {
+    position: absolute;
+    top: 14rem;
+    left: 16rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 5.5rem;
+}
+
+#charisma {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#charismaTotal {
+    position: absolute;
+    left: 1.5rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #434852;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skills {
+    position: absolute;
+    width: 100%;
+    height: 23rem;
+    left: 0;
+    top: 58rem;
+}
+
+#skillsTitle {
+    text-align: left;
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+#skillPlaceholder1 {
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#acrobatics {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#acrobaticsTotal {
+    position: absolute;
+    left: 1.8rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder2 {
+    position: absolute;
+    top: 4rem;
+    left: 8rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#animal {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#animalTotal {
+    position: absolute;
+    left: 1.8rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 6rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder3 {
+    position: absolute;
+    top: 4rem;
+    left: 15rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#arcana {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#arcanaTotal {
+    position: absolute;
+    left: 1.8rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder4 {
+    position: absolute;
+    top: 14rem;
+    left: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#athletics {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#athleticsTotal {
+    position: absolute;
+    left: 1.8rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder5 {
+    position: absolute;
+    top: 14rem;
+    left: 8rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#deception {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#deceptionTotal {
+    position: absolute;
+    left: 1.8rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder6 {
+    position: absolute;
+    top: 14rem;
+    left: 15rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#history {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#historyTotal {
+    position: absolute;
+    left: 1.8rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder7 {
+    position: absolute;
+    top: 24rem;
+    left: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#insight {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#insightTotal {
+    position: absolute;
+    left: 1.8rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder8 {
+    position: absolute;
+    top: 24rem;
+    left: 8rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 7rem;
+}
+
+#intimidation {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#intimidationTotal {
+    position: absolute;
+    left: 2.3rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder9 {
+    position: absolute;
+    top: 34rem;
+    left: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 7rem;
+}
+
+#investigation {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#investigationTotal {
+    position: absolute;
+    left: 2.3rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder10 {
+    position: absolute;
+    top: 34rem;
+    left: 8.8rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#medicine {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#medicineTotal {
+    position: absolute;
+    left: 2rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder11 {
+    position: absolute;
+    top: 34rem;
+    left: 15.8rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#nature {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#natureTotal {
+    position: absolute;
+    left: 2rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder12 {
+    position: absolute;
+    top: 44rem;
+    left: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#perception {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#perceptionTotal {
+    position: absolute;
+    left: 2rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder13 {
+    position: absolute;
+    top: 44rem;
+    left: 8rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 7rem;
+}
+
+#performance {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#performanceTotal {
+    position: absolute;
+    left: 2.5rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder14 {
+    position: absolute;
+    top: 54rem;
+    left: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 7rem;
+}
+
+#persuasion {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#persuasionTotal {
+    position: absolute;
+    left: 2.5rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder15 {
+    position: absolute;
+    top: 54rem;
+    left: 8.8rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#religion {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#religionTotal {
+    position: absolute;
+    left: 2rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder16 {
+    position: absolute;
+    top: 54rem;
+    left: 15.8rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#sleight {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#sleightTotal {
+    position: absolute;
+    left: 2rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 6rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder17 {
+    position: absolute;
+    top: 64rem;
+    left: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#stealth {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#stealthTotal {
+    position: absolute;
+    left: 2rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
+}
+
+#skillPlaceholder18 {
+    position: absolute;
+    top: 64rem;
+    left: 8rem;
+    text-align: center;
+    line-height: 1rem;
+    width: 6rem;
+}
+
+#survival {
+    border-style: solid;
+    border-color: #F4A261;
+    padding: .5rem;
+}
+
+#survivalTotal {
+    position: absolute;
+    left: 2rem;
+    border-style: solid;
+    padding: .5rem;
+    top: 5rem;
+    background-color: #2A2D34;
+    border-color: #F4A261;
+    border-radius: 1rem;
 }
