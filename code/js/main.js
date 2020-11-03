@@ -1,7 +1,8 @@
 function backCharacter() {
     if (document.getElementById("newCharacterIcon").src = "img/haapi.jpg") {
         document.getElementById("newCharacterIcon").src = "img/newCharacterIcon.png";
-        document.getElementById("characterHeading").innerHTML = "Create New";
+        document.getElementById("characterHeading").innerHTML = "Create <br> New <br> Character";
+        document.getElementById('characterLink').setAttribute('href', 'create.html');
     } 
 }
 
