@@ -311,6 +311,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    background-color: #434852;
 }
 
 #acrobatics {
@@ -325,9 +326,9 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
     border-color: #F4A261;
     border-radius: 1rem;
+    background-color: #434852;
 }
 
 #skillPlaceholder2 {
@@ -337,6 +338,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    background-color: #434852;
 }
 
 #animal {
@@ -351,7 +353,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 6rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -363,6 +365,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    background-color: #434852;
 }
 
 #arcana {
@@ -377,7 +380,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -389,6 +392,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    background-color: #434852;
 }
 
 #athletics {
@@ -403,7 +407,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -415,6 +419,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    background-color: #434852;
 }
 
 #deception {
@@ -429,7 +434,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -441,6 +446,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    background-color: #434852;
 }
 
 #history {
@@ -455,7 +461,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -467,6 +473,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    background-color: #434852;
 }
 
 #insight {
@@ -481,7 +488,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -493,6 +500,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 7rem;
+    background-color: #434852;
 }
 
 #intimidation {
@@ -507,7 +515,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -519,6 +527,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 7rem;
+    background-color: #434852;
 }
 
 #investigation {
@@ -533,7 +542,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -545,6 +554,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    background-color: #434852;
 }
 
 #medicine {
@@ -559,7 +569,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -571,7 +581,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
-    padding-bottom: 3rem;
+    background-color: #434852;
 }
 
 #nature {
@@ -586,7 +596,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -598,6 +608,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    background-color: #434852;
 }
 
 #perception {
@@ -612,7 +623,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -624,6 +635,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 7rem;
+    background-color: #434852;
 }
 
 #performance {
@@ -638,7 +650,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -676,7 +688,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
-    padding-bottom: 3rem;
+    background-color: #434852;
 }
 
 #religion {
@@ -691,7 +703,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -703,6 +715,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    background-color: #434852;
 }
 
 #sleight {
@@ -717,7 +730,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 6rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -729,6 +742,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    background-color: #434852;
 }
 
 #stealth {
@@ -743,7 +757,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
@@ -755,7 +769,7 @@ a{
     text-align: center;
     line-height: 1rem;
     width: 6rem;
-    padding-bottom: 3rem;
+    background-color: #434852;
 }
 
 #survival {
@@ -770,7 +784,7 @@ a{
     border-style: solid;
     padding: .5rem;
     top: 5rem;
-    background-color: #2A2D34;
+    background-color: #434852;
     border-color: #F4A261;
     border-radius: 1rem;
 }
