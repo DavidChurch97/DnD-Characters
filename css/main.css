@@ -514,8 +514,8 @@ a{
 
 #skillPlaceholder9 {
     position: absolute;
-    top: 10rem;
-    left: 15.8rem;
+    top: 20rem;
+    left: 1rem;
     text-align: center;
     line-height: 1rem;
     width: 7rem;
@@ -567,7 +567,7 @@ a{
 #skillPlaceholder11 {
     position: absolute;
     top: 20rem;
-    left: 1rem;
+    left: 8.8rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
@@ -619,8 +619,8 @@ a{
 
 #skillPlaceholder13 {
     position: absolute;
-    top: 10rem;
-    left: 17rem;
+    top: 20rem;
+    left: 1rem;
     text-align: center;
     line-height: 1rem;
     width: 7rem;
@@ -672,7 +672,7 @@ a{
 #skillPlaceholder15 {
     position: absolute;
     top: 20rem;
-    left: 8.8rem;
+    left: 15.8rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
@@ -784,8 +784,7 @@ a{
     cursor: pointer;
     position: relative;
     top: .5rem;
-    left: 1rem;
-    margin-left: 2rem;
+    left: 3rem;
     margin-bottom: .5rem; 
 }
 
