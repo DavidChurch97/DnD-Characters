@@ -109,6 +109,8 @@ a{
     text-align: center;
 }
 
+/* Ability Scores  Css */
+
 #abilityScores {
     background-color: #434852;
     position: absolute;
@@ -281,6 +283,8 @@ a{
     border-radius: 1rem;
 }
 
+/* Skills Css */
+
 #skills {
     position: absolute;
     width: 100%;
@@ -296,9 +300,13 @@ a{
     margin-left: 2rem;
 }
 
+#skillList {
+    visibility: hidden;
+}
+
 #skillPlaceholder1 {
     position: absolute;
-    top: 4rem;
+    top: 10rem;
     left: 1rem;
     text-align: center;
     line-height: 1rem;
@@ -324,8 +332,8 @@ a{
 
 #skillPlaceholder2 {
     position: absolute;
-    top: 4rem;
-    left: 8rem;
+    top: 10rem;
+    left: 1rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
@@ -350,8 +358,8 @@ a{
 
 #skillPlaceholder3 {
     position: absolute;
-    top: 4rem;
-    left: 15rem;
+    top: 10rem;
+    left: 1rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
@@ -376,7 +384,7 @@ a{
 
 #skillPlaceholder4 {
     position: absolute;
-    top: 14rem;
+    top: 10rem;
     left: 1rem;
     text-align: center;
     line-height: 1rem;
@@ -402,8 +410,8 @@ a{
 
 #skillPlaceholder5 {
     position: absolute;
-    top: 14rem;
-    left: 8rem;
+    top: 10rem;
+    left: 1rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
@@ -428,8 +436,8 @@ a{
 
 #skillPlaceholder6 {
     position: absolute;
-    top: 14rem;
-    left: 15rem;
+    top: 10rem;
+    left: 8.8rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
@@ -454,8 +462,8 @@ a{
 
 #skillPlaceholder7 {
     position: absolute;
-    top: 24rem;
-    left: 1rem;
+    top: 10rem;
+    left: 8.8rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
@@ -480,8 +488,8 @@ a{
 
 #skillPlaceholder8 {
     position: absolute;
-    top: 24rem;
-    left: 8rem;
+    top: 10rem;
+    left: 8.8rem;
     text-align: center;
     line-height: 1rem;
     width: 7rem;
@@ -506,8 +514,8 @@ a{
 
 #skillPlaceholder9 {
     position: absolute;
-    top: 34rem;
-    left: 1rem;
+    top: 10rem;
+    left: 15.8rem;
     text-align: center;
     line-height: 1rem;
     width: 7rem;
@@ -532,8 +540,8 @@ a{
 
 #skillPlaceholder10 {
     position: absolute;
-    top: 34rem;
-    left: 8.8rem;
+    top: 10rem;
+    left: 15.8rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
@@ -558,11 +566,12 @@ a{
 
 #skillPlaceholder11 {
     position: absolute;
-    top: 34rem;
-    left: 15.8rem;
+    top: 20rem;
+    left: 1rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    padding-bottom: 3rem;
 }
 
 #nature {
@@ -584,7 +593,7 @@ a{
 
 #skillPlaceholder12 {
     position: absolute;
-    top: 44rem;
+    top: 22rem;
     left: 1rem;
     text-align: center;
     line-height: 1rem;
@@ -610,8 +619,8 @@ a{
 
 #skillPlaceholder13 {
     position: absolute;
-    top: 44rem;
-    left: 8rem;
+    top: 10rem;
+    left: 17rem;
     text-align: center;
     line-height: 1rem;
     width: 7rem;
@@ -662,11 +671,12 @@ a{
 
 #skillPlaceholder15 {
     position: absolute;
-    top: 54rem;
+    top: 20rem;
     left: 8.8rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    padding-bottom: 3rem;
 }
 
 #religion {
@@ -688,8 +698,8 @@ a{
 
 #skillPlaceholder16 {
     position: absolute;
-    top: 54rem;
-    left: 15.8rem;
+    top: 10rem;
+    left: 8.8rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
@@ -714,8 +724,8 @@ a{
 
 #skillPlaceholder17 {
     position: absolute;
-    top: 64rem;
-    left: 1rem;
+    top: 10rem;
+    left: 15.8rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
@@ -740,11 +750,12 @@ a{
 
 #skillPlaceholder18 {
     position: absolute;
-    top: 64rem;
-    left: 8rem;
+    top: 22rem;
+    left: 8.8rem;
     text-align: center;
     line-height: 1rem;
     width: 6rem;
+    padding-bottom: 3rem;
 }
 
 #survival {
@@ -762,4 +773,23 @@ a{
     background-color: #2A2D34;
     border-color: #F4A261;
     border-radius: 1rem;
+}
+
+.skillBtn {
+    background: none;
+    color: #E5E5E5;
+    border-color: #F4A261;
+    border-radius: .5rem;
+    padding: .5rem;
+    cursor: pointer;
+    position: relative;
+    top: .5rem;
+    left: 1rem;
+    margin-left: 2rem;
+    margin-bottom: .5rem; 
+}
+
+.skillBtn:hover {
+    border-color: #E5E5E5;
+    color: #F4A261;
 }
